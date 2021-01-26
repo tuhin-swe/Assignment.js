@@ -1,4 +1,4 @@
-
+// https://github.com/tuhin3054/Assignment.js
 //1. Kilometer to meter convert:
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
@@ -12,11 +12,11 @@ console.log(result);
 function budgetCalculator(howMuchWatch, howMuchMobile, howMuchLaptop) {
     var watch = howMuchWatch * 50;
     var mobile = howMuchMobile * 100;
-    var laptop = howMuchLaptop * 1000;
+    var laptop = howMuchLaptop * 500;
     var totalPrice = watch + mobile + laptop;
     return totalPrice;
 }
-var price = budgetCalculator(5, 10, 2);
+var price = budgetCalculator(5, 10, 5);
 console.log(price);
 
 
